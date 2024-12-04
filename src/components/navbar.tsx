@@ -6,9 +6,6 @@ import { CiMenuBurger } from "react-icons/ci";
 import {
     Sheet,
     SheetContent,
-    SheetDescription,
-    SheetHeader,
-    SheetTitle,
     SheetTrigger,
 } from "@/components/ui/sheet"
 

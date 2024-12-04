@@ -15,13 +15,13 @@ function HeroSection() {
         <header className='lg:w-[80vw] w-[100vw] mx-auto lg:flex lg:justify-center lg:items-center lg:gap-8 '>
 
             <ul className='lg:w-1/4 lg:h-[350px] lg:pt-8 border-r border-slate-200 lg:block hidden'>
-                <li className='p-2' ><Link className='flex justify-between items-center text-sm' href="/">Woman's Fashion <FiChevronRight className='mr-4' /></Link></li>
-                <li className='p-2' ><Link className='flex justify-between items-center text-sm' href="/">Man's Fashion <FiChevronRight className='mr-4' /></Link></li>
+                <li className='p-2' ><Link className='flex justify-between items-center text-sm' href="/">Woman&apos;s Fashion <FiChevronRight className='mr-4' /></Link></li>
+                <li className='p-2' ><Link className='flex justify-between items-center text-sm' href="/">Man&apos;s Fashion <FiChevronRight className='mr-4' /></Link></li>
                 <li className='p-2' ><Link className='flex justify-between items-center text-sm' href="/">Electronics </Link></li>
                 <li className='p-2' ><Link className='flex justify-between items-center text-sm' href="/">Home and Lifestyle </Link></li>
                 <li className='p-2' ><Link className='flex justify-between items-center text-sm' href="/">Medicine </Link></li>
                 <li className='p-2' ><Link className='flex justify-between items-center text-sm' href="/">Sports & Outdoor </Link></li>
-                <li className='p-2' ><Link className='flex justify-between items-center text-sm' href="/">Baby's Toys</Link></li>
+                <li className='p-2' ><Link className='flex justify-between items-center text-sm' href="/">Baby&apos;s Toys</Link></li>
                 <li className='p-2' ><Link className='flex justify-between items-center text-sm' href="/">Groceries & Pets </Link></li>
                 <li className='p-2' ><Link className='flex justify-between items-center text-sm' href="/">Health & Beauty </Link></li>
 
