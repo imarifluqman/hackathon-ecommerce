@@ -2,7 +2,6 @@
 import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FiChevronRight } from "react-icons/fi";
-import { CiMenuBurger } from "react-icons/ci";
 import 'swiper/css';
 import 'swiper/css/pagination';
 
