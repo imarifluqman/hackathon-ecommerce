@@ -3,10 +3,14 @@ import { IoIosSearch } from "react-icons/io";
 import { FaRegHeart } from "react-icons/fa";
 import { BsCart3 } from "react-icons/bs";
 import { CiMenuBurger } from "react-icons/ci";
+import { FiChevronRight } from "react-icons/fi";
+
 import {
     Sheet,
     SheetContent,
     SheetTrigger,
+    SheetHeader,
+    SheetTitle,
 } from "@/components/ui/sheet"
 
 function Navbar() {
@@ -51,13 +55,27 @@ function Navbar() {
 
                 <Sheet>
                     <SheetTrigger className='lg:hidden block' ><CiMenuBurger /></SheetTrigger>
-                    <SheetContent className=''>
+                    <SheetContent>
                         <ul className='flex flex-col gap-4 mt-10'>
                             <li className='font-semibold  hover:text-orange-500'><Link href="/">Home</Link></li>
                             <li className='font-semibold  hover:text-orange-500'><Link href="/">Contact</Link></li>
                             <li className='font-semibold  hover:text-orange-500'><Link href="/">About</Link></li>
                             <li className='font-semibold  hover:text-orange-500'><Link href="/">Sign Up</Link></li>
                         </ul>
+                        <SheetHeader>
+                            <SheetTitle>Categories</SheetTitle>
+                            <ul className='lg:w-1/4 lg:h-[350px] lg:pt-8 lg:hidden block'>
+                                <li className='p-2' ><Link className='flex justify-between items-center text-sm' href="/">Woman&apos;s Fashion <FiChevronRight className='mr-4' /></Link></li>
+                                <li className='p-2' ><Link className='flex justify-between items-center text-sm' href="/">Man&apos;s Fashion <FiChevronRight className='mr-4' /></Link></li>
+                                <li className='p-2' ><Link className='flex justify-between items-center text-sm' href="/">Electronics </Link></li>
+                                <li className='p-2' ><Link className='flex justify-between items-center text-sm' href="/">Home and Lifestyle </Link></li>
+                                <li className='p-2' ><Link className='flex justify-between items-center text-sm' href="/">Medicine </Link></li>
+                                <li className='p-2' ><Link className='flex justify-between items-center text-sm' href="/">Sports & Outdoor </Link></li>
+                                <li className='p-2' ><Link className='flex justify-between items-center text-sm' href="/">Baby&apos;s Toys</Link></li>
+                                <li className='p-2' ><Link className='flex justify-between items-center text-sm' href="/">Groceries & Pets </Link></li>
+                                <li className='p-2' ><Link className='flex justify-between items-center text-sm' href="/">Health & Beauty </Link></li>
+                            </ul>
+                        </SheetHeader>
                     </SheetContent>
                 </Sheet>
 
